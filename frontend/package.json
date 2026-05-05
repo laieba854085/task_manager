@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "set ESBUILD_BINARY_PATH=..\\node_modules\\@esbuild\\win32-x64\\esbuild.exe&& vite",
-    "build": "set ESBUILD_BINARY_PATH=..\\node_modules\\@esbuild\\win32-x64\\esbuild.exe&& vite build",
-    "preview": "vite preview",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port $PORT",
     "lint": "echo \"Add frontend lint config\""
   },
   "dependencies": {
